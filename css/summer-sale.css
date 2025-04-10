@@ -48,7 +48,7 @@ img {
 
 .summer-sale-flex {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 65%;
     transform: translate(-50%, -50%);
     width: 60%;
@@ -104,13 +104,13 @@ img {
     width: max-content;
     margin: auto;
     margin-right: 0;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .summer-sale-products {
     width: 75%;
     margin: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-right: 0;
 }
 
@@ -163,11 +163,39 @@ img {
     .summer-sale-cta {
         font-size: 20px;
     }
+    .summer-sale-text-div{
+    margin: auto;
+    margin-left: 0;
+}
+ 
+    .summer-sale-off { 
+        margin: auto;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .summer-sale-text-div {
+        margin: auto;
+        margin-bottom: 0;
+    }
+    .summer-sale-off div p:nth-child(2) {
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+
+
 
 }
 
-
 @media screen and (min-width: 768px) {
+    .summer-sale-text-div {
+        margin: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .summer-sale { 
+        margin-top: 64px;
+    }
     .summer-sale-products {
         width: 130px;
         margin: 0;
@@ -206,6 +234,7 @@ img {
         padding: 5px 14px;
         border-radius: 5px;
         text-align: center;
+        margin-top: 15px;
 
     }
 
@@ -242,6 +271,64 @@ img {
         margin: auto;
         margin-left: 0;
     }
+   
+
+}
 
 
+
+@media screen and (min-width: 994px) {
+    .summer-sale {
+        margin-top: 33px;
+    }
+    .summer-sale-text h2 {
+        font-size: 26px;
+    }
+    .summer-sale-text-p { 
+        font-size: 18px;
+    }
+    .summer-sale-cta { 
+        font-size: 16px;
+    }
+    .summer-sale-off div p:nth-child(2) {
+        font-size: 32px; 
+    }
+    .summer-sale-off div p:last-child {
+        font-size: 16px;
+    }
+
+    .summer-sale-products {
+        width: 175px;
+    }
+    .summer-sale-off img { 
+        width: 35px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1400px) {
+    .summer-sale-text h2 {
+        font-size: 40px;
+    }
+
+    .summer-sale-text-p {
+        font-size: 24px;
+    }
+    .summer-sale-cta {
+        font-size: 20px;
+    }
+    .summer-sale-off div p:nth-child(2) {
+        font-size: 40px;
+    }
+    .summer-sale-off div p:first-child { 
+        font-size: 14px;
+    }
+    .summer-sale-off div p:last-child {
+        font-size: 20px;
+    }
+    .summer-sale-products {
+        width: 300px;
+    }
 }
