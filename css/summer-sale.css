@@ -1,0 +1,247 @@
+.summer-sale {
+    font-family: externalFontLight;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: externalFont;
+    src: url(../fonts/GTWalsheimPro-Bold.woff);
+}
+
+@font-face {
+    font-family: externalFontLight;
+    src: url(../fonts/GTWalsheimPro-Medium.woff);
+}
+
+@font-face {
+    font-family: externalFontRegular;
+    src: url(../fonts/GTWalsheimPro-Regular.woff);
+}
+
+
+img {
+    width: 100%;
+}
+
+.last-p {
+    color: white;
+    text-align: center;
+    background-color: #f54702;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: -2px;
+    padding: 5px 0;
+    font-family: externalFontRegular;
+    font-weight: 100;
+
+}
+
+.last-p span {
+    font-weight: 600;
+
+}
+
+.summer-sale-div {
+    position: relative;
+}
+
+.summer-sale-flex {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: end;
+    height: 80%;
+
+
+}
+
+.summer-sale-text {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.summer-sale-off img {
+    width: 30px;
+}
+
+.summer-sale-text h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.summer-sale-text-p {
+    color: rgba(255, 255, 255, 0.844);
+    text-transform: uppercase;
+    font-family: externalFontRegular;
+    font-weight: 100;
+    width: 60%;
+    margin: 5px auto;
+    margin-right: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.summer-sale-cta {
+    background-color: #62ab00;
+    color: white;
+    padding: 7px 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 17px;
+    display: block;
+    width: max-content;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.summer-sale-products {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.summer-sale-off {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    column-gap: 5px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.summer-sale-off div p {
+    color: white;
+    text-transform: uppercase;
+    text-align: start;
+
+
+}
+
+.summer-sale-off div p:first-child {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.summer-sale-off div p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.summer-sale-off img {
+    margin-bottom: -15px;
+}
+
+
+@media screen and (min-width: 500px) {
+    .summer-sale-off div p:last-child {
+        font-size: 35px;
+    }
+
+    .summer-sale-text h2 {
+        font-size: 28px;
+    }
+
+    .summer-sale-text-p {
+        font-size: 20px;
+    }
+
+    .summer-sale-cta {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .summer-sale-products {
+        width: 130px;
+        margin: 0;
+    }
+
+    .summer-sale-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .summer-sale-text,
+    .summer-sale-text p,
+    .summer-sale-text-p,
+    .summer-sale-text h2 {
+        text-align: left;
+    }
+
+    .summer-sale-text h2 {
+        font-size: 20px;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .summer-sale-text-p {
+        margin: 0;
+        width: 100%;
+        font-size: 16px;
+        /* margin-bottom: 10px; */
+    }
+
+    .summer-sale-cta {
+        margin: auto;
+        margin-left: 0;
+        font-size: 12px;
+        padding: 5px 14px;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+
+    .summer-sale-off div p:last-child {
+        font-size: 12px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    .summer-sale-off { 
+        margin: auto;
+        margin-left: 0;
+    }
+    .summer-sale-off div p:nth-child(2) br{
+        display: none;
+    }
+
+    .summer-sale-off img{
+        margin: auto;
+        margin-left: 0; 
+        margin-bottom: 12px; 
+        width: 25px;
+
+    }
+
+    .summer-sale-off div p:nth-child(2) {
+        font-size: 26px;
+        font-weight: 900;
+        margin-bottom: 5px;
+    }
+    .summer-sale-text{
+        width: 55%;
+        margin: auto;
+        margin-left: 0;
+    }
+
+
+}
